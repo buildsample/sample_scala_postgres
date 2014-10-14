@@ -18,7 +18,9 @@ after_script:
   - mv target/scala-2.10/coverage-report/cobertura.xml shippable/codecoverage/
 
 
+
 notifications:
   email:
     - vidya@shippable.com
+    
 cache: true
