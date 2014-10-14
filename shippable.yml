@@ -20,5 +20,5 @@ after_script:
 
 notifications:
   email:
-    - vidya@shippable.com
+    -vidya@shippable.com
 #cache: true
