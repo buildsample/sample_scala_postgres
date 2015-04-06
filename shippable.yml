@@ -17,10 +17,11 @@ after_script:
   - mkdir -p shippable/codecoverage
   - mv target/scala-2.10/coverage-report/cobertura.xml shippable/codecoverage/
 
-
+archive: true
 
 notifications:
   email:
     - vidya@shippable.com
+
     
 cache: true
