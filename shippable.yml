@@ -8,7 +8,7 @@ scala:
 
 
 addons:
-  postgresql: "9.1"
+  postgresql: "9.3"
 
 before_script:
   - psql -U postgres -f pg.sql
