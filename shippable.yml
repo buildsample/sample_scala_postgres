@@ -2,6 +2,7 @@ language: scala
 
 
 scala:
+  - 2.11.0
   - 2.10.2
 
 #build_image: shippable/minv2:beta
@@ -16,6 +17,7 @@ before_script:
 script:
   - export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
   - sbt clean scoverage:test
+
 
 after_script:
   - mkdir -p shippable/codecoverage
