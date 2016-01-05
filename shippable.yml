@@ -6,7 +6,7 @@ scala:
 
 #build_image: shippable/minv2:beta
 
-build_image: drydock/u12scaall:tip
+build_image: drydock/u14scaall:tip
 
 #addons:
  # postgresql: "9.1"
